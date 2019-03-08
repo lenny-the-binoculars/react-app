@@ -1,0 +1,46 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "Internal Dashboard",
+  "main": "dist/index.js",
+  "repository": "",
+  "scripts": {
+    "flow": "flow",
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.15.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.16.4",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.0"
+  },
+  "dependencies": {
+    "implement-js": "0.0.26",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-favicon": "0.0.14",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "resolve": "^1.10.0"
+  }
+}
