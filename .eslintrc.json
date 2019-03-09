@@ -20,6 +20,9 @@
     "plugins": [
       "react"
     ],
+    "resolve": {
+      "extensions": [".js", ".jsx"]
+    },
     "rules": {
       "semi": 0,
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
